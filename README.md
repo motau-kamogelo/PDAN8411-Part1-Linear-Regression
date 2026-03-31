@@ -2,7 +2,7 @@
 ## Linear Regression Analysis Report
 
 **Prepared For:** South African Medical Aid Scheme  
-**Prepared By:** Kamogelo Motau
+**Prepared By:** Kamogelo Motau 
 **Date:** March 18, 2026  
 **Project:** Insurance Charges Prediction Model
 
