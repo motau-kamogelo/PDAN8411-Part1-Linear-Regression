@@ -2,7 +2,24 @@
 ## Linear Regression Analysis
 
 **Client:** South African Medical Aid Scheme  
+**Student:** Kamogelo Motau (ST10500865)
 **Date:** March 18, 2026
+
+---
+## This report covers the following:
+1. Data cleaning steps
+
+2. EDA with key visualizations described
+
+3. Feature selection process
+
+4. Model training approach
+
+5. Evaluation metrics and interpretation
+
+6. Business insights
+
+7. Recommendations
 
 ---
 
@@ -136,3 +153,48 @@ A linear regression model was developed to predict medical insurance charges. Th
 ## 7. Model Interpretation
 
 ### Final Equation
+Charges = -11,500 + 257×age + 329×bmi + 475×children + 23,600×smoker - 950×region_NE - 500×region_NW - 300×region_SE
+
+
+### Business Insights
+
+| Factor | Impact | Business Implication |
+|--------|--------|---------------------|
+| **Smoking** | +$23,600 | Primary pricing differentiator |
+| **Age** | +$257/year | Age-based tiers justified |
+| **BMI** | +$329/unit | Wellness programs valuable |
+| **Children** | +$475/child | Moderate family impact |
+| **Region** | -$300 to -$950 | Minor adjustments only |
+
+---
+
+## 8. Recommendations
+
+### Immediate Actions
+
+1. **Deploy model** as pricing guidance tool
+2. **Implement smoking-based tiers** (smokers pay ~4× non-smokers)
+3. **Create age brackets:**
+   - 18-30: 0.8× baseline
+   - 31-45: 1.0× baseline
+   - 46-60: 1.3× baseline
+   - 60+: 1.6× baseline
+4. **Launch BMI wellness program** with premium incentives
+
+### Future Improvements
+
+1. **Collect South African data** for model retraining
+2. **Add features:** pre-existing conditions, exercise habits
+3. **Develop segmented models** (smokers vs non-smokers)
+4. **Test non-linear models** (Random Forest, XGBoost)
+
+---
+
+## 9. Limitations
+
+| Limitation | Impact |
+|------------|--------|
+| US-based data | May not reflect SA market |
+| Linear assumption | Misses complex patterns |
+| Limited features | No health history data |
+| Cross-sectional | No trend analysis |
