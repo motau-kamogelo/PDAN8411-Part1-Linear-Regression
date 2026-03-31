@@ -2,25 +2,9 @@
 ## Linear Regression Analysis Report
 
 **Prepared For:** South African Medical Aid Scheme  
-**Prepared By:** [Your Name/Analyst]  
+**Prepared By:** Kamogelo Motau
 **Date:** March 18, 2026  
 **Project:** Insurance Charges Prediction Model
-
----
-
-## Table of Contents
-
-1. Executive Summary
-2. Introduction & Business Problem
-3. Data Cleaning & Preparation
-4. Exploratory Data Analysis (EDA)
-5. Feature Engineering & Selection
-6. Model Development
-7. Model Evaluation & Results
-8. Model Interpretation
-9. Limitations & Assumptions
-10. Recommendations & Next Steps
-11. Conclusion
 
 ---
 
@@ -71,5 +55,3 @@ The medical aid scheme requires a sliding scale of charges based on customer dem
 - **Sample Size:** 1,338 records
 - **Features:** 7 variables (age, sex, bmi, children, smoker, region, charges)
 - **Target Variable:** Insurance charges (continuous)
-
-**Initial Data Inspection:**
